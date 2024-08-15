@@ -1,0 +1,22 @@
+header{
+  z-index: 1;
+  position: sticky;
+  transition: background-color 0.4s ease-in-out;
+}
+header nav a {
+  transition: color 0.4s ease-in-out;
+}
+header a {
+  transition: color 0.4s ease-in-out;
+}
+header.scrolled a{
+  color: #FDE047;
+}
+header.scrolled{
+  background-color: #111827;
+  opacity: 0.98;
+}
+}
+header.scrolled nav a{
+  color: #FDE047;
+}
